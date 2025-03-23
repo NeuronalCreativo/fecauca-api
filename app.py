@@ -5,7 +5,7 @@ import google.generativeai as genai
 app = Flask(__name__)
 
 # Configura la API Key de Gemini AI
-genai.configure(api_key='TU_API_KEY_DE_GEMINI')
+genai.configure(api_key='AIzaSyBO-KTGJqkYP2mn6PiR83goA2VNpzN1HQk')
 
 # Conexión a la base de datos
 def get_db_connection():
